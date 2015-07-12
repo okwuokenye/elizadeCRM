@@ -8,17 +8,21 @@
         <!-- Optional theme -->
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/fastclick.js"></script>
-        <script src="cordovajs"></script>
+        <script src="cordova.js"></script>
 
         <script>
             $(document).ready(function() {
                 FastClick.attach(document.body);
-                //$("#side").load("nav.html");
+                
+                $("body").removeClass("hidden");
+                $("body").addClass("animated fadeInUpBig");
+
             });
         </script>
         <script src="js/functions.js"></script>
@@ -84,7 +88,7 @@
             }
         </style>
     </head>
-    <body>
+    <body class="hidden">
         <!-- Fixed navbar -->
         <div id="side">
             <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
