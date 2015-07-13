@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+         <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/fastclick.js"></script>
+        <script src="cordova.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                FastClick.attach(document.body);
+                $("#side").load("nav.html");
+            });
+        </script>
+    </head>
+
+
+    <body>
+
+        <!-- Fixed navbar -->
+        <div id="side" style="margin-bottom: 70px"></div>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            
+            <div role="tabpanel" class="tab-pane active" id="home">
+                
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Name</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <h4>Raymond Ativie</h4>
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Name</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <h4>Raymond Ativie</h4>
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Name</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <h4>Raymond Ativie</h4>
+                    </div>            
+                </div>
+                <div class="row">
+                    <hr />         
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Name</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <h4>Raymond Ativie</h4>
+                    </div>            
+                </div>
+                
+            </div>
+            <!-- ----------------------------------------------------------- -->
+            
+            <div role="tabpanel" class="tab-pane" id="profile">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <b class="form-control">Profile</b>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" class="form-control" />
+                    </div>            
+                </div>
+            </div>
+            <!-- ----------------------------------------------------------- -->
+            <div role="tabpanel" class="tab-pane" id="messages">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <b class="form-control">Message</b>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" class="form-control" />
+                    </div>            
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-default navbar-fixed-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Nav tabs -->
+                            <div class="nav nav-tabs" role="tablist">
+                                <a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+                                    <div role="presentation" class="btn btn-default col-xs-4">
+                                        <i class="fa fa-info"></i><br />Information
+                                    </div>
+                                </a>
+                                <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+                                    <div role="presentation" class="btn btn-default col-xs-4">
+                                        <i class="fa fa-user"></i><br />Profile
+                                    </div>
+                                </a>
+                                <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
+                                    <div role="presentation" class="btn btn-default col-xs-4">
+                                        <i class="fa fa-envelope"></i><br />Messages
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div>
+
+
+
+
+
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/fastclick.js"></script>
+        <script src="cordova.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                FastClick.attach(document.body);
+                
+                $("body").removeClass("hidden");
+                $("body").addClass("animated fadeInUpBig");
+
+            });
+        </script>
+        <script src="js/functions.js"></script>
+
+        <style>
+
+            .jumbotron {
+                text-align: center;
+                border-radius: 0.5rem;
+                width: 35rem;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                position: absolute;
+                margin: 4rem auto;
+                background-color: #fff;
+                padding: 2rem;
+            }
+
+            .container .glyphicon-list-alt {
+                font-size: 10rem;
+                margin-top: 3rem;
+                color: #f96145;
+            }
+
+            input {
+                width: 100%;
+                margin-bottom: 1.4rem;
+                padding: 1rem;
+                background-color: #ecf2f4;
+                border-radius: 0.2rem;
+                border: none;
+            }
+            h2 {
+                margin-bottom: 3rem;
+                font-weight: bold;
+                color: #ababab;
+            }
+            .btn {
+                border-radius: 0.2rem;
+            }
+            .btn .glyphicon {
+                font-size: 3rem;
+                color: #fff;
+            }
+            .full-width {
+                background-color: #8eb5e2;
+                width: 100%;
+                -webkit-border-top-right-radius: 0;
+                -webkit-border-bottom-right-radius: 0;
+                -moz-border-radius-topright: 0;
+                -moz-border-radius-bottomright: 0;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+
+            .box {
+                position: absolute;
+                //bottom: 0;
+                left: 0;
+                margin-bottom: 3rem;
+            }
+        </style>
+    </head>
+    <body class="hidden">
+        <!-- Fixed navbar -->
+        <div id="side">
+            <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header pull-left">                    
+                        <a class="navbar-brand" href="home.html"><i class="fa fa-angle-left"></i></a>
+                        <div class="navbar-brand">Customer Login</div>
+                    </div>   
+                    <!--                    <div class="pull-right">
+                                            <a class="navbar-brand pull-right" href="index.html"><i class="fa fa-refresh"></i></a>
+                                            <a class="navbar-brand pull-right" href="index.html"><i class="fa fa-desktop"></i></a>
+                                        </div>-->
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="jumbotron">
+            <div class="container" style="margin-top: 30px">
+                <span class="fa fa-lock fa-5x text-primary"></span>
+                <h2>Elizade MobileCRM</h2>
+                <div class="box">
+                    <input type="text" placeholder="username" id="userName">
+                    <input type="password" placeholder="password" id="password">
+                    <button id="btnCustomerLogin" class="btn btn-default full-width"><span class="fa fa-check"></span></button>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
