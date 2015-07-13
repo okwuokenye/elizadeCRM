@@ -1,0 +1,191 @@
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="../../css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="../../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../../fontawesome/css/font-awesome.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="../../js/jquery.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                //$("#side").load("nav.html");
+            });
+        </script>
+        <style>
+            .form-control{
+                border: 0px;
+                box-shadow: inset 0px 0px 0px rgba(0,0,0,0.0) !important;
+                padding: auto 0px;
+                font-size: 19px;
+                font-family: "Source Sans Pro",Calibri,Candara,Arial,sans-serif;
+                font-weight: 300;
+                line-height: 1.1;
+                color: inherit;
+                padding-left: 0px
+            }
+            .form-control:focus{
+                //box-shadow: inset 1px 1px 1px rgba(0,0,0,0.075) !important;
+            }
+
+        </style>
+    </head>
+
+
+    <body>
+
+        <!-- Fixed navbar -->
+        <div id="side" style="margin-bottom: 51px">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header pull-left">                    
+                        <a class="navbar-brand" href="../accounts.html"><i class="fa fa-angle-left"></i></a>
+                        <div class="navbar-brand">New Account</div>
+                    </div>   
+                    <div class="pull-right">
+                        <!--<div class="navbar-brand pull-right" data-toggle="modal" data-target="#moreModal"><i class="fa fa-ellipsis-v"></i></div>-->
+                        <div class="navbar-brand pull-right"><i class="fa fa-save"></i></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Tab panes -->
+        <div class="tab-content" style="margin-bottom: 70px">
+
+            <div role="tabpanel" class="tab-pane active" id="home" style="padding-top: 10px">
+
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right; color: red">
+                        <h4><b>Account Name</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Email</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <div class="input-group">                            
+                            <input type="text" class="form-control" value="">
+                        </div><!-- /input-group -->
+                    </div>            
+                </div>
+                <div class="row">
+                    <hr />         
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Main Phone</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <div class="input-group">                            
+                            <input type="text" class="form-control" value="">
+                        </div><!-- /input-group -->
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Web Site</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <hr />         
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Currency</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <select class="form-control">
+                            <option></option>
+                            <option>Naira</option>
+                            <option>Dollar</option>
+                            <option>Euro</option>
+                            <option>Pounds</option>
+                        </select>
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Price List</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <select class="form-control">
+                            <option></option>
+                            <option>Retail</option>
+                            <option>Wholesale</option>
+                        </select>
+                    </div>            
+                </div>
+                <div class="row">
+                    <hr />
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Street 1</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Street 2</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>City</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Postal Code</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>State</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Country</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />
+                    </div>            
+                </div>
+
+
+            </div>
+            <!-- ----------------------------------------------------------- -->
+            <!-- ----------------------------------------------------------- -->
+            
+        </div>
+
+
+    </body>
+</html>

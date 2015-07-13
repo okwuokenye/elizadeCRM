@@ -1,0 +1,17 @@
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\debug\anycpu\resources.pri
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\debug\anycpu\CordovaApp.Windows.build.appxrecipe
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\bld\priconfig.xml
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\bld\priconfig.xml.intermediate
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\bld\layout.resfiles
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\bld\layout.resfiles.intermediate
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\bld\resources.resfiles
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\bld\resources.resfiles.intermediate
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\bld\pri.resfiles
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\bld\pri.resfiles.intermediate
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\bld\qualifiers.txt
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\bld\qualifiers.txt.intermediate
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\bld\MultipleQualifiersPerDimensionFound.txt
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\bld\ProjectArchitectures.txt
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\bld\package.map.txt
+C:\xampp\htdocs\elizadeCRM\platforms\windows\build\windows\bld\_pkginfo.txt

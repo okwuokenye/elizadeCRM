@@ -1,2 +1,7 @@
 /nbproject/private/
 /nbproject/
+/platforms/android/gen/
+/platforms/android/CordovaLib/gen/
+/platforms/windows/www/nbproject/private/
+/platforms/windows/build/phone/bld/PackageLayout/www/nbproject/private/
+/platforms/wp8/www/nbproject/private/

@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="crm.elizade.net" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="config.xml" uri="ms-resource://crm.elizade.net/Files/config.xml">
+				<Candidate type="Path">
+					<Value>config.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="images">
+				<NamedResource name="SplashScreen.png" uri="ms-resource://crm.elizade.net/Files/images/SplashScreen.png"/>
+				<NamedResource name="SplashScreenPhone.png" uri="ms-resource://crm.elizade.net/Files/images/SplashScreenPhone.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\SplashScreenPhone.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://crm.elizade.net/Files/images/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square150x150Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square30x30Logo.png" uri="ms-resource://crm.elizade.net/Files/images/Square30x30Logo.png"/>
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://crm.elizade.net/Files/images/Square310x310Logo.png"/>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://crm.elizade.net/Files/images/Square44x44Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square44x44Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square70x70Logo.png" uri="ms-resource://crm.elizade.net/Files/images/Square70x70Logo.png"/>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://crm.elizade.net/Files/images/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://crm.elizade.net/Files/images/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://crm.elizade.net/Files/images/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Wide310x150Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="www">
+				<NamedResource name="about.html" uri="ms-resource://crm.elizade.net/Files/www/about.html">
+					<Candidate type="Path">
+						<Value>www\about.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="contact.html" uri="ms-resource://crm.elizade.net/Files/www/contact.html">
+					<Candidate type="Path">
+						<Value>www\contact.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="contacts.html" uri="ms-resource://crm.elizade.net/Files/www/contacts.html">
+					<Candidate type="Path">
+						<Value>www\contacts.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="cordova.js" uri="ms-resource://crm.elizade.net/Files/www/cordova.js">
+					<Candidate type="Path">
+						<Value>www\cordova.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="cordova_plugins.js" uri="ms-resource://crm.elizade.net/Files/www/cordova_plugins.js">
+					<Candidate type="Path">
+						<Value>www\cordova_plugins.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="home.html" uri="ms-resource://crm.elizade.net/Files/www/home.html">
+					<Candidate type="Path">
+						<Value>www\home.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="index.html" uri="ms-resource://crm.elizade.net/Files/www/index.html">
+					<Candidate type="Path">
+						<Value>www\index.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="leads.html" uri="ms-resource://crm.elizade.net/Files/www/leads.html">
+					<Candidate type="Path">
+						<Value>www\leads.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="lists.html" uri="ms-resource://crm.elizade.net/Files/www/lists.html">
+					<Candidate type="Path">
+						<Value>www\lists.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="login.html" uri="ms-resource://crm.elizade.net/Files/www/login.html">
+					<Candidate type="Path">
+						<Value>www\login.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="loginStaff.html" uri="ms-resource://crm.elizade.net/Files/www/loginStaff.html">
+					<Candidate type="Path">
+						<Value>www\loginStaff.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="nav.html" uri="ms-resource://crm.elizade.net/Files/www/nav.html">
+					<Candidate type="Path">
+						<Value>www\nav.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="newsfeed.html" uri="ms-resource://crm.elizade.net/Files/www/newsfeed.html">
+					<Candidate type="Path">
+						<Value>www\newsfeed.html</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="cordova-js-src">
+					<NamedResource name="exec.js" uri="ms-resource://crm.elizade.net/Files/www/cordova-js-src/exec.js">
+						<Candidate type="Path">
+							<Value>www\cordova-js-src\exec.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="platform.js" uri="ms-resource://crm.elizade.net/Files/www/cordova-js-src/platform.js">
+						<Candidate type="Path">
+							<Value>www\cordova-js-src\platform.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="css">
+					<NamedResource name="animate.css" uri="ms-resource://crm.elizade.net/Files/www/css/animate.css">
+						<Candidate type="Path">
+							<Value>www\css\animate.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="bootstrap-theme.css" uri="ms-resource://crm.elizade.net/Files/www/css/bootstrap-theme.css">
+						<Candidate type="Path">
+							<Value>www\css\bootstrap-theme.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="bootstrap-theme.css.map" uri="ms-resource://crm.elizade.net/Files/www/css/bootstrap-theme.css.map">
+						<Candidate type="Path">
+							<Value>www\css\bootstrap-theme.css.map</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="bootstrap-theme.min.css" uri="ms-resource://crm.elizade.net/Files/www/css/bootstrap-theme.min.css">
+						<Candidate type="Path">
+							<Value>www\css\bootstrap-theme.min.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="bootstrap.css" uri="ms-resource://crm.elizade.net/Files/www/css/bootstrap.css">
+						<Candidate type="Path">
+							<Value>www\css\bootstrap.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="bootstrap.css.map" uri="ms-resource://crm.elizade.net/Files/www/css/bootstrap.css.map">
+						<Candidate type="Path">
+							<Value>www\css\bootstrap.css.map</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="bootstrap.min.css" uri="ms-resource://crm.elizade.net/Files/www/css/bootstrap.min.css">
+						<Candidate type="Path">
+							<Value>www\css\bootstrap.min.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="index.css" uri="ms-resource://crm.elizade.net/Files/www/css/index.css">
+						<Candidate type="Path">
+							<Value>www\css\index.css</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="customer">
+					<NamedResource name="index.html" uri="ms-resource://crm.elizade.net/Files/www/customer/index.html">
+						<Candidate type="Path">
+							<Value>www\customer\index.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="newsfeed.html" uri="ms-resource://crm.elizade.net/Files/www/customer/newsfeed.html">
+						<Candidate type="Path">
+							<Value>www\customer\newsfeed.html</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="fontawesome">
+					<ResourceMapSubtree name="css">
+						<NamedResource name="font-awesome.css" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/css/font-awesome.css">
+							<Candidate type="Path">
+								<Value>www\fontawesome\css\font-awesome.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="font-awesome.min.css" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/css/font-awesome.min.css">
+							<Candidate type="Path">
+								<Value>www\fontawesome\css\font-awesome.min.css</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="fonts">
+						<NamedResource name="fontawesome-webfont.eot" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/fonts/fontawesome-webfont.eot">
+							<Candidate type="Path">
+								<Value>www\fontawesome\fonts\fontawesome-webfont.eot</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="fontawesome-webfont.svg" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/fonts/fontawesome-webfont.svg">
+							<Candidate type="Path">
+								<Value>www\fontawesome\fonts\fontawesome-webfont.svg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="fontawesome-webfont.ttf" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/fonts/fontawesome-webfont.ttf">
+							<Candidate type="Path">
+								<Value>www\fontawesome\fonts\fontawesome-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="fontawesome-webfont.woff" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/fonts/fontawesome-webfont.woff">
+							<Candidate type="Path">
+								<Value>www\fontawesome\fonts\fontawesome-webfont.woff</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="fontawesome-webfont.woff2" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/fonts/fontawesome-webfont.woff2">
+							<Candidate type="Path">
+								<Value>www\fontawesome\fonts\fontawesome-webfont.woff2</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="FontAwesome.otf" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/fonts/FontAwesome.otf">
+							<Candidate type="Path">
+								<Value>www\fontawesome\fonts\FontAwesome.otf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="less">
+						<NamedResource name="animated.less" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/less/animated.less">
+							<Candidate type="Path">
+								<Value>www\fontawesome\less\animated.less</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bordered-pulled.less" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/less/bordered-pulled.less">
+							<Candidate type="Path">
+								<Value>www\fontawesome\less\bordered-pulled.less</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="core.less" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/less/core.less">
+							<Candidate type="Path">
+								<Value>www\fontawesome\less\core.less</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="fixed-width.less" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/less/fixed-width.less">
+							<Candidate type="Path">
+								<Value>www\fontawesome\less\fixed-width.less</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="font-awesome.less" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/less/font-awesome.less">
+							<Candidate type="Path">
+								<Value>www\fontawesome\less\font-awesome.less</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="icons.less" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/less/icons.less">
+							<Candidate type="Path">
+								<Value>www\fontawesome\less\icons.less</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="larger.less" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/less/larger.less">
+							<Candidate type="Path">
+								<Value>www\fontawesome\less\larger.less</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="list.less" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/less/list.less">
+							<Candidate type="Path">
+								<Value>www\fontawesome\less\list.less</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="mixins.less" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/less/mixins.less">
+							<Candidate type="Path">
+								<Value>www\fontawesome\less\mixins.less</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="path.less" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/less/path.less">
+							<Candidate type="Path">
+								<Value>www\fontawesome\less\path.less</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="rotated-flipped.less" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/less/rotated-flipped.less">
+							<Candidate type="Path">
+								<Value>www\fontawesome\less\rotated-flipped.less</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="stacked.less" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/less/stacked.less">
+							<Candidate type="Path">
+								<Value>www\fontawesome\less\stacked.less</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="variables.less" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/less/variables.less">
+							<Candidate type="Path">
+								<Value>www\fontawesome\less\variables.less</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="scss">
+						<NamedResource name="font-awesome.scss" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/scss/font-awesome.scss">
+							<Candidate type="Path">
+								<Value>www\fontawesome\scss\font-awesome.scss</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="_animated.scss" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/scss/_animated.scss">
+							<Candidate type="Path">
+								<Value>www\fontawesome\scss\_animated.scss</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="_bordered-pulled.scss" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/scss/_bordered-pulled.scss">
+							<Candidate type="Path">
+								<Value>www\fontawesome\scss\_bordered-pulled.scss</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="_core.scss" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/scss/_core.scss">
+							<Candidate type="Path">
+								<Value>www\fontawesome\scss\_core.scss</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="_fixed-width.scss" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/scss/_fixed-width.scss">
+							<Candidate type="Path">
+								<Value>www\fontawesome\scss\_fixed-width.scss</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="_icons.scss" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/scss/_icons.scss">
+							<Candidate type="Path">
+								<Value>www\fontawesome\scss\_icons.scss</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="_larger.scss" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/scss/_larger.scss">
+							<Candidate type="Path">
+								<Value>www\fontawesome\scss\_larger.scss</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="_list.scss" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/scss/_list.scss">
+							<Candidate type="Path">
+								<Value>www\fontawesome\scss\_list.scss</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="_mixins.scss" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/scss/_mixins.scss">
+							<Candidate type="Path">
+								<Value>www\fontawesome\scss\_mixins.scss</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="_path.scss" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/scss/_path.scss">
+							<Candidate type="Path">
+								<Value>www\fontawesome\scss\_path.scss</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="_rotated-flipped.scss" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/scss/_rotated-flipped.scss">
+							<Candidate type="Path">
+								<Value>www\fontawesome\scss\_rotated-flipped.scss</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="_stacked.scss" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/scss/_stacked.scss">
+							<Candidate type="Path">
+								<Value>www\fontawesome\scss\_stacked.scss</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="_variables.scss" uri="ms-resource://crm.elizade.net/Files/www/fontawesome/scss/_variables.scss">
+							<Candidate type="Path">
+								<Value>www\fontawesome\scss\_variables.scss</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="fonts">
+					<NamedResource name="glyphicons-halflings-regular.eot" uri="ms-resource://crm.elizade.net/Files/www/fonts/glyphicons-halflings-regular.eot">
+						<Candidate type="Path">
+							<Value>www\fonts\glyphicons-halflings-regular.eot</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="glyphicons-halflings-regular.svg" uri="ms-resource://crm.elizade.net/Files/www/fonts/glyphicons-halflings-regular.svg">
+						<Candidate type="Path">
+							<Value>www\fonts\glyphicons-halflings-regular.svg</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="glyphicons-halflings-regular.ttf" uri="ms-resource://crm.elizade.net/Files/www/fonts/glyphicons-halflings-regular.ttf">
+						<Candidate type="Path">
+							<Value>www\fonts\glyphicons-halflings-regular.ttf</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="glyphicons-halflings-regular.woff" uri="ms-resource://crm.elizade.net/Files/www/fonts/glyphicons-halflings-regular.woff">
+						<Candidate type="Path">
+							<Value>www\fonts\glyphicons-halflings-regular.woff</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="glyphicons-halflings-regular.woff2" uri="ms-resource://crm.elizade.net/Files/www/fonts/glyphicons-halflings-regular.woff2">
+						<Candidate type="Path">
+							<Value>www\fonts\glyphicons-halflings-regular.woff2</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="img">
+					<NamedResource name="logo.gif" uri="ms-resource://crm.elizade.net/Files/www/img/logo.gif">
+						<Candidate type="Path">
+							<Value>www\img\logo.gif</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="js">
+					<NamedResource name="bootstrap.js" uri="ms-resource://crm.elizade.net/Files/www/js/bootstrap.js">
+						<Candidate type="Path">
+							<Value>www\js\bootstrap.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="bootstrap.min.js" uri="ms-resource://crm.elizade.net/Files/www/js/bootstrap.min.js">
+						<Candidate type="Path">
+							<Value>www\js\bootstrap.min.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="fastclick.js" uri="ms-resource://crm.elizade.net/Files/www/js/fastclick.js">
+						<Candidate type="Path">
+							<Value>www\js\fastclick.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="functions.js" uri="ms-resource://crm.elizade.net/Files/www/js/functions.js">
+						<Candidate type="Path">
+							<Value>www\js\functions.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="index.js" uri="ms-resource://crm.elizade.net/Files/www/js/index.js">
+						<Candidate type="Path">
+							<Value>www\js\index.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.min.js" uri="ms-resource://crm.elizade.net/Files/www/js/jquery.min.js">
+						<Candidate type="Path">
+							<Value>www\js\jquery.min.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="npm.js" uri="ms-resource://crm.elizade.net/Files/www/js/npm.js">
+						<Candidate type="Path">
+							<Value>www\js\npm.js</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="nbproject">
+					<NamedResource name="project.properties" uri="ms-resource://crm.elizade.net/Files/www/nbproject/project.properties">
+						<Candidate type="Path">
+							<Value>www\nbproject\project.properties</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="project.xml" uri="ms-resource://crm.elizade.net/Files/www/nbproject/project.xml">
+						<Candidate type="Path">
+							<Value>www\nbproject\project.xml</Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="private">
+						<NamedResource name="private.properties" uri="ms-resource://crm.elizade.net/Files/www/nbproject/private/private.properties">
+							<Candidate type="Path">
+								<Value>www\nbproject\private\private.properties</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="plugins">
+					<ResourceMapSubtree name="com.telerik.plugins.nativepagetransitions">
+						<ResourceMapSubtree name="www">
+							<NamedResource name="NativePageTransitions.js" uri="ms-resource://crm.elizade.net/Files/www/plugins/com.telerik.plugins.nativepagetransitions/www/NativePageTransitions.js">
+								<Candidate type="Path">
+									<Value>www\plugins\com.telerik.plugins.nativepagetransitions\www\NativePageTransitions.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="staff">
+					<NamedResource name="accounts.html" uri="ms-resource://crm.elizade.net/Files/www/staff/accounts.html">
+						<Candidate type="Path">
+							<Value>www\staff\accounts.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="contact.html" uri="ms-resource://crm.elizade.net/Files/www/staff/contact.html">
+						<Candidate type="Path">
+							<Value>www\staff\contact.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="index.html" uri="ms-resource://crm.elizade.net/Files/www/staff/index.html">
+						<Candidate type="Path">
+							<Value>www\staff\index.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="invoice.html" uri="ms-resource://crm.elizade.net/Files/www/staff/invoice.html">
+						<Candidate type="Path">
+							<Value>www\staff\invoice.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="leads.html" uri="ms-resource://crm.elizade.net/Files/www/staff/leads.html">
+						<Candidate type="Path">
+							<Value>www\staff\leads.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="opportunities.html" uri="ms-resource://crm.elizade.net/Files/www/staff/opportunities.html">
+						<Candidate type="Path">
+							<Value>www\staff\opportunities.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="orders.html" uri="ms-resource://crm.elizade.net/Files/www/staff/orders.html">
+						<Candidate type="Path">
+							<Value>www\staff\orders.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="quotes.html" uri="ms-resource://crm.elizade.net/Files/www/staff/quotes.html">
+						<Candidate type="Path">
+							<Value>www\staff\quotes.html</Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="accounts">
+						<NamedResource name="contact.html" uri="ms-resource://crm.elizade.net/Files/www/staff/accounts/contact.html">
+							<Candidate type="Path">
+								<Value>www\staff\accounts\contact.html</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="new.html" uri="ms-resource://crm.elizade.net/Files/www/staff/accounts/new.html">
+							<Candidate type="Path">
+								<Value>www\staff\accounts\new.html</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="note.html" uri="ms-resource://crm.elizade.net/Files/www/staff/accounts/note.html">
+							<Candidate type="Path">
+								<Value>www\staff\accounts\note.html</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="Invoices">
+						<NamedResource name="contact.html" uri="ms-resource://crm.elizade.net/Files/www/staff/Invoices/contact.html">
+							<Candidate type="Path">
+								<Value>www\staff\Invoices\contact.html</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="new.html" uri="ms-resource://crm.elizade.net/Files/www/staff/Invoices/new.html">
+							<Candidate type="Path">
+								<Value>www\staff\Invoices\new.html</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="note.html" uri="ms-resource://crm.elizade.net/Files/www/staff/Invoices/note.html">
+							<Candidate type="Path">
+								<Value>www\staff\Invoices\note.html</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="leads">
+						<NamedResource name="contact.html" uri="ms-resource://crm.elizade.net/Files/www/staff/leads/contact.html">
+							<Candidate type="Path">
+								<Value>www\staff\leads\contact.html</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="new.html" uri="ms-resource://crm.elizade.net/Files/www/staff/leads/new.html">
+							<Candidate type="Path">
+								<Value>www\staff\leads\new.html</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="note.html" uri="ms-resource://crm.elizade.net/Files/www/staff/leads/note.html">
+							<Candidate type="Path">
+								<Value>www\staff\leads\note.html</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="opportunities">
+						<NamedResource name="contact.html" uri="ms-resource://crm.elizade.net/Files/www/staff/opportunities/contact.html">
+							<Candidate type="Path">
+								<Value>www\staff\opportunities\contact.html</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="new.html" uri="ms-resource://crm.elizade.net/Files/www/staff/opportunities/new.html">
+							<Candidate type="Path">
+								<Value>www\staff\opportunities\new.html</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="note.html" uri="ms-resource://crm.elizade.net/Files/www/staff/opportunities/note.html">
+							<Candidate type="Path">
+								<Value>www\staff\opportunities\note.html</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="orders">
+						<NamedResource name="contact.html" uri="ms-resource://crm.elizade.net/Files/www/staff/orders/contact.html">
+							<Candidate type="Path">
+								<Value>www\staff\orders\contact.html</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="new.html" uri="ms-resource://crm.elizade.net/Files/www/staff/orders/new.html">
+							<Candidate type="Path">
+								<Value>www\staff\orders\new.html</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="note.html" uri="ms-resource://crm.elizade.net/Files/www/staff/orders/note.html">
+							<Candidate type="Path">
+								<Value>www\staff\orders\note.html</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="quotes">
+						<NamedResource name="contact.html" uri="ms-resource://crm.elizade.net/Files/www/staff/quotes/contact.html">
+							<Candidate type="Path">
+								<Value>www\staff\quotes\contact.html</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="new.html" uri="ms-resource://crm.elizade.net/Files/www/staff/quotes/new.html">
+							<Candidate type="Path">
+								<Value>www\staff\quotes\new.html</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="note.html" uri="ms-resource://crm.elizade.net/Files/www/staff/quotes/note.html">
+							<Candidate type="Path">
+								<Value>www\staff\quotes\note.html</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

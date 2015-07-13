@@ -1,0 +1,246 @@
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/fastclick.js"></script>
+        <script src="cordova.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                FastClick.attach(document.body);
+                //$("body").removeClass("hidden");
+                //$("body").addClass("animated slideInLeft");
+                setInterval(function() {
+                    //alert(0);
+                    $("#eSplash").removeClass("hidden");
+                    $("#eSplash").addClass("animated bounceInLeft");
+                }, 1000);
+                setInterval(function() {
+                    //alert(0);
+                    $("#eDev").removeClass("hidden");
+                    $("#eDev").addClass("animated bounceInLeft");
+                }, 3000);
+                setInterval(function() {
+                    //alert(0);
+                    $("#splash").addClass("animated zoomOut");
+                }, 5000);
+                setInterval(function() {
+                    //alert(0);
+                    $("#splash").remove();
+                }, 6000);
+
+            });
+        </script>
+
+        <style>
+            body {padding-top:50px;}
+
+            .box {
+                border-radius: 3px;
+                box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+                padding: 10px 25px;
+                text-align: right;
+                display: block;
+                margin-top: 30px;
+            }
+            .box-icon {
+                background-color: #57a544;
+                border-radius: 50%;
+                display: table;
+                height: 100px;
+                margin: 0 auto;
+                width: 100px;
+                margin-top: -61px;
+            }
+            .box-icon span {
+                color: #fff;
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+            }
+            .info h4 {
+                font-size: 26px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+            .info > p {
+                color: #717171;
+                font-size: 16px;
+                padding-top: 10px;
+                text-align: justify;
+            }
+            .info > a {
+                background-color: #03a9f4;
+                border-radius: 2px;
+                box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+                color: #fff;
+                transition: all 0.5s ease 0s;
+            }
+            .info > a:hover {
+                background-color: #0288d1;
+                box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+                color: #fff;
+                transition: all 0.5s ease 0s;
+            }
+        </style>
+    </head>
+
+
+    <body>
+
+        <!--        <div id="splash" width: 1200px; height: 1200px">
+                    
+                </div>-->
+
+        <!-- Fixed navbar -->
+        <div id="side">
+            <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header pull-left">                    
+                        <!--<a class="navbar-brand" href="index.html"><i class="fa fa-angle-left"></i></a>-->
+                        <a class="navbar-brand" href="index.html">Welcome to Elizade App</a>
+                    </div>   
+                    <div class="pull-right">
+                        <!--                        <a class="navbar-brand pull-right" href="index.html"><i class="fa fa-refresh"></i></a>
+                                                <a class="navbar-brand pull-right" href="index.html"><i class="fa fa-desktop"></i></a>-->
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container" style="margin-top: 40px; margin-bottom: 20px">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="box">
+                        <div class="box-icon">
+                            <span class="fa fa-4x fa-html5"></span>
+                        </div>
+                        <div class="info">
+                            <h4 class="text-center">Elizade</h4>
+                            <p>Elizade is the brainchild of Chief Michael Ade-Ojo. The company evolved from a vision, apparently made manifest through divine favours; but which Chief Ade.Ojo readily accepted as a mission.
+The dream that gave birth to Elizade started with the relationship between Chief Ade-Ojo and his wife Mrs. Elizabeth Wuraola Ojo, when both met as students at the University of Nigeria, Nsukka in the early 60s. Chief Ade.Ojo, who was studying Business Administration as one of the pioneer students of that course then, had vowed to establish and run a business of his own within 10 years of his working life. (He fulfilled the vow within six years). The name, ELIZADE – coined from ‘Elizabeth’ his wife’s first name and ‘Ade” his own middle name instantly struck him as a viable company name.</p>
+                            <!--<a href="" class="btn">Link</a>-->
+                        </div>
+                    </div>
+                </div>        
+            </div>
+        </div>
+
+        <style>
+            .list-group .logo{
+                text-align: center;
+            }
+        </style>
+
+        <div class="container-fluid" style="margin: 1px;padding: 14px">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="list-group">
+                        <a href="newsfeed.html" class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-2 col-xs-3 logo">
+                                    <i class="fa fa-3x fa-newspaper-o text-primary"></i>
+                                </div>
+                                <div class="col-sm-9 col-xs-7">
+                                    <div class="row">
+                                        <div class="col-xs-12 text-primary">
+                                            <b>News Feed</b>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 text-primary">
+                                            <span>View News about Elizade</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-1 col-xs-2" style="text-align: right">
+                                    <i class="fa fa-angle-right"></i>
+                                </div>
+                            </div>                        
+                        </a>
+
+                        <a href="login.html" class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-2 col-xs-3 logo">
+                                    <i class="fa fa-3x fa-users text-primary"></i>
+                                </div>
+                                <div class="col-sm-9 col-xs-7">
+                                    <div class="row">
+                                        <div class="col-xs-12 text-primary">
+                                            <b>Customer Login</b>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 text-primary">
+                                            <span>Login with customer details</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-1 col-xs-2" style="text-align: right">
+                                    <i class="fa fa-angle-right"></i>
+                                </div>
+                            </div>                        
+                        </a>
+                        <a href="loginStaff.html" class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-2 col-xs-3 logo">
+                                    <i class="fa fa-3x fa-user text-primary"></i>
+                                </div>
+                                <div class="col-sm-9 col-xs-7">
+                                    <div class="row">
+                                        <div class="col-xs-12 text-primary">
+                                            <b>CRM Staff Login</b>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 text-primary">
+                                            <span>Login as Elizade Staff</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-1 col-xs-2" style="text-align: right">
+                                    <i class="fa fa-angle-right"></i>
+                                </div>
+                            </div>                        
+                        </a>
+                        <a href="about.html" class="list-group-item">
+                            <div class="row">
+                                <div class="col-sm-2 col-xs-3" style="text-align: center">
+                                    <i class="fa fa-3x fa-info-circle text-primary"></i>
+                                </div>
+                                <div class="col-sm-9 col-xs-7">
+                                    <div class="row">
+                                        <div class="col-xs-12 text-primary">
+                                            <b>About</b>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 text-primary">
+                                            <span>Application Info</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-1 col-xs-2" style="text-align: right">
+                                    <i class="fa fa-angle-right"></i>
+                                </div>
+                            </div>                        
+                        </a>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

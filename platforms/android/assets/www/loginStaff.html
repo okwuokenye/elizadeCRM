@@ -8,17 +8,20 @@
         <!-- Optional theme -->
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+        <link href="css/animate.css" rel="stylesheet" type="text/css"/>
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/fastclick.js"></script>
-        <script src="cordovajs"></script>
+        <script src="cordova.js"></script>
 
         <script>
             $(document).ready(function() {
                 FastClick.attach(document.body);
-                //$("#side").load("nav.html");
+                
+                $("body").removeClass("hidden");
+                $("body").addClass("animated fadeInUpBig");
             });
         </script>
 
@@ -108,7 +111,7 @@
                 <div class="box">
                     <input type="text" placeholder="username">
                     <input type="password" placeholder="password">
-                    <a href="staff/index.html"  class="btn btn-default btn-block"><span class="glyphicon glyphicon-ok"></span></a>
+                    <a href="staff/index.html"  class="btn btn-default btn-block"><span class="fa fa-ok"></span></a>
 
                 </div>
             </div>

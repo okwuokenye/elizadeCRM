@@ -1,0 +1,26 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"NativePageTransitions\"><param name=\"wp-package\" value=\"NativePageTransitions\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.telerik.plugins.nativepagetransitions": {
+            "PACKAGE_NAME": "{52bc0650-28f9-11e5-9d4f-d15d233c0f78}"
+        }
+    },
+    "dependent_plugins": {}
+}

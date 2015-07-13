@@ -1,0 +1,14 @@
+C:\xampp\htdocs\elizadeCRM\platforms\wp8\Bin\Debug\ApplicationIcon.png
+C:\xampp\htdocs\elizadeCRM\platforms\wp8\Bin\Debug\Background.png
+C:\xampp\htdocs\elizadeCRM\platforms\wp8\Bin\Debug\crm.elizade.net.dll
+C:\xampp\htdocs\elizadeCRM\platforms\wp8\Bin\Debug\crm.elizade.net.pdb
+C:\xampp\htdocs\elizadeCRM\platforms\wp8\Bin\Debug\AppManifest.xaml
+C:\xampp\htdocs\elizadeCRM\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+C:\xampp\htdocs\elizadeCRM\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+C:\xampp\htdocs\elizadeCRM\platforms\wp8\obj\Debug\App.g.cs
+C:\xampp\htdocs\elizadeCRM\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+C:\xampp\htdocs\elizadeCRM\platforms\wp8\obj\Debug\MainPage.g.cs
+C:\xampp\htdocs\elizadeCRM\platforms\wp8\obj\Debug\crm.elizade.net.g.resources
+C:\xampp\htdocs\elizadeCRM\platforms\wp8\obj\Debug\crm.elizade.net.dll
+C:\xampp\htdocs\elizadeCRM\platforms\wp8\obj\Debug\crm.elizade.net.pdb
+C:\xampp\htdocs\elizadeCRM\platforms\wp8\obj\Debug\XapCacheFile.xml

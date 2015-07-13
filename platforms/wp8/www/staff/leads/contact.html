@@ -1,0 +1,306 @@
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="../../css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="../../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../../fontawesome/css/font-awesome.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="../../js/jquery.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                //$("#side").load("nav.html");
+            });
+        </script>
+        <style>
+            .form-control{
+                border: 0px;
+                box-shadow: inset 0px 0px 0px rgba(0,0,0,0.0) !important;
+                padding: auto 0px;
+                font-size: 19px;
+                font-family: "Source Sans Pro",Calibri,Candara,Arial,sans-serif;
+                font-weight: 300;
+                line-height: 1.1;
+                color: inherit;
+                padding-left: 0px
+            }
+            .form-control:focus{
+                //box-shadow: inset 1px 1px 1px rgba(0,0,0,0.075) !important;
+            }
+
+        </style>
+    </head>
+
+
+    <body>
+
+        <!-- Fixed navbar -->
+        <div id="side" style="margin-bottom: 51px">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header pull-left">                    
+                        <a class="navbar-brand" href="../leads.html"><i class="fa fa-angle-left"></i></a>
+                        <div class="navbar-brand">John Doe</div>
+                    </div>   
+                    <div class="pull-right">
+                        <div class="navbar-brand pull-right" data-toggle="modal" data-target="#moreModal"><i class="fa fa-ellipsis-v"></i></div>
+                        <div class="navbar-brand pull-right"><i class="fa fa-save"></i></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- More Modal -->
+        <div class="modal fade" id="moreModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header alert-info">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Action</h4>
+                    </div>
+                    <div class="modal-body" style="padding: 0px;padding-bottom: 0px">
+                        <div class="row" style="margin:0px">
+                            <div class="col-md-12" style="padding: 0px; text-align: center">                                
+                                <a href="contact.html" class="list-group-item">
+                                    <i class="fa fa-check"></i> &nbsp; Qualify
+                                </a>
+                                <a href="contact.html" class="list-group-item">
+                                    <i class="fa fa-times"></i> &nbsp; Disqualify - Cannot Contact
+                                </a>
+                                <a href="contact.html" class="list-group-item">
+                                    <i class="fa fa-times"></i> &nbsp; Disqualify - No Longer Interested
+                                </a>
+                                <a href="contact.html" class="list-group-item">
+                                    <i class="fa fa-times"></i> &nbsp; Disqualify - Canceled
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="padding: 0px">
+                        <button type="button" class="btn btn-default btn-block" data-dismiss="modal">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab panes -->
+        <div class="tab-content" style="margin-bottom: 70px">
+
+            <div role="tabpanel" class="tab-pane active" id="home" style="padding-top: 10px">
+
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Topic</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="This is a sample topic of what this thing might be" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <hr />         
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Company Name</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="Chronos" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>First Name</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="Raymond" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Last Name</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="Ativie" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <hr />         
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Email</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <div class="input-group">                            
+                            <input type="text" class="form-control" value="raymondativie@gmail.com">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"><i class="fa fa-envelope"></i></button>
+                            </span>
+                        </div><!-- /input-group -->
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Mobile Phone</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="0809999999" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Business Phone</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />                        
+                    </div>            
+                </div>
+                <div class="row">
+                    <hr />
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Est. Value</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="number" name="topic" value="" placeholder="None" class="form-control" />
+                    </div>            
+                </div>
+                 <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Est. Close Date</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="number" name="topic" value="" placeholder="dd/mm/yyyy" class="form-control" />
+                    </div>            
+                </div>
+                 <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Rating</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <select class="form-control">
+                            <option>Warm</option>
+                            <option>Hot</option>
+                            <option>Cold</option>
+                        </select>
+                    </div>            
+                </div>
+                <div class="row">
+                    <hr />
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Street 1</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="4 Jos Close" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Street 2</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>City</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="Agbara" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>State</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="Lagos" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Country</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="Nigeria" class="form-control" />
+                    </div>            
+                </div>
+                
+
+            </div>
+            <!-- ----------------------------------------------------------- -->
+            <!-- ----------------------------------------------------------- -->
+            <div role="tabpanel" class="tab-pane" id="messages">
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="list-group">
+                            <a href="note.html" class="list-group-item">
+                                <div class="row">
+                                    <div class="col-xs-9"><h5>Add Note</h5></div>
+                                    <div class="col-xs-3" style="text-align: right"><h5><i class="fa fa-file-text-o"></i><i class="fa fa-plus"></i><h5></div>
+                                </div>
+                            </a>
+                            <a href="note.html" class="list-group-item">
+                                <div class="row">
+                                    <div class="col-xs-11"><h4>Sample Note 1</h4></div>
+                                    <div class="col-xs-1"><i class="fa fa-file-text-o"></i></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12"><small>This is a test description of the note taker...</small></div>
+                                </div>
+                            </a>
+                            <a href="note.html" class="list-group-item">
+                                <div class="row">
+                                    <div class="col-xs-11"><h4>Sample Note 2</h4></div>
+                                    <div class="col-xs-1"><i class="fa fa-file-text-o"></i></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12"><small>This is a test description of the note taker...</small></div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-default navbar-fixed-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <!--Nav tabs--> 
+                            <div class="nav nav-tabs" role="tablist">
+                                <a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+                                    <div role="presentation" class="btn btn-default col-xs-6">
+                                        <i class="fa fa-info"></i><br />Information
+                                    </div>
+                                </a>
+
+                                <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
+                                    <div role="presentation" class="btn btn-default col-xs-6">
+                                        <i class="fa fa-file-text"></i><br />Notes
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </body>
+</html>

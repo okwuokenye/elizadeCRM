@@ -1,0 +1,1 @@
+C:\xampp\htdocs\elizadeCRM\platforms\windows\CordovaApp.Phone.jsproj;neutral
