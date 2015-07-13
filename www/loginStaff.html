@@ -15,7 +15,7 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/fastclick.js"></script>
         <script src="cordova.js"></script>
-
+        <script src="js/functions.js"></script>
         <script>
             $(document).ready(function() {
                 FastClick.attach(document.body);
@@ -109,9 +109,10 @@
                 <span class="fa fa-lock fa-5x text-default"></span>
                 <h2>Elizade MobileCRM</h2>
                 <div class="box">
-                    <input type="text" placeholder="username">
-                    <input type="password" placeholder="password">
-                    <a href="staff/index.html"  class="btn btn-default btn-block"><span class="fa fa-ok"></span></a>
+
+                    <input type="text" placeholder="username" id="userName">
+                    <input type="password" placeholder="password" id="password">
+                    <button id="btnStaffLogin"  class="btn btn-default btn-block"><span class="fa fa-ok"></span></button>
 
                 </div>
             </div>

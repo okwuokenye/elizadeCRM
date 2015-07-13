@@ -14,3 +14,16 @@ $("#btnCustomerLogin").click( function(e){
         alert('Invalid Login. Please check username/password')
     }
 });
+
+//this is the function for staff login
+$("#btnStaffLogin").click( function(e){
+    var user = $("#userName").val();
+    var password = $("#password").val();
+    
+    if(user !== "" && password !== ""){
+        //connect to crm and autthenticate user
+        window.location.replace("staff/index.html");
+    }else{
+        alert('Invalid Login. Please check username/password')
+    }
+});

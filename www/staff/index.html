@@ -10,9 +10,12 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="../js/jquery.min.js"></script>
         <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/fastclick.js"></script>
+        <script src="../cordova.js"></script>
 
         <script>
-            $(document).ready(function () {
+            $(document).ready(function() {
+                FastClick.attach(document.body);
                 //$("#side").load("nav.html");
             });
         </script>
@@ -27,7 +30,7 @@
                 <div class="container">
                     <div class="navbar-header pull-left">                    
                         <!--<a class="navbar-brand" href="index.html"><i class="fa fa-angle-left"></i></a>-->
-                        <div class="navbar-brand" >Elizade Staff</div>
+                        <div class="navbar-brand" >Elizade MobileCRM</div>
                     </div>   
                     <div class="pull-right">
                         <a class="navbar-brand pull-right" href="index.html"><i class="fa fa-refresh"></i></a>
@@ -49,7 +52,7 @@
                     <h2>Welcome <br />Raymond Ativie</h2>
                     <br />
                     <div class="list-group">
-                        <a href="newsfeed.html" class="list-group-item">
+                        <a href="#" class="list-group-item">
                             <div class="row">
                                 <div class="col-sm-2 col-xs-3 logo">
                                     <i class="fa fa-3x fa-user "></i>
@@ -226,7 +229,7 @@
                                 </div>
                             </div>                        
                         </a>
-                        
+
                     </div>
 
                 </div>
