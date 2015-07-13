@@ -10,16 +10,19 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="../js/jquery.min.js"></script>
         <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/fastclick.js"></script>
+        <script src="../cordova.js"></script>
 
         <script>
-            $(document).ready(function () {
+            $(document).ready(function() {
+                FastClick.attach(document.body);
                 //$("#side").load("nav.html");
             });
         </script>
     </head>
 
 
-    <body style="margin: 0px; padding: 0px">
+    <body>
 
         <!-- Fixed navbar -->
         <div id="side" style="margin-bottom: 50px">
@@ -27,7 +30,7 @@
                 <div class="container">
                     <div class="navbar-header pull-left">                    
                         <!--<a class="navbar-brand" href="index.html"><i class="fa fa-angle-left"></i></a>-->
-                        <div class="navbar-brand" >Elizade Staff</div>
+                        <div class="navbar-brand" >Elizade MobileCRM</div>
                     </div>   
                     <div class="pull-right">
                         <a class="navbar-brand pull-right" href="index.html"><i class="fa fa-refresh"></i></a>
@@ -43,13 +46,13 @@
             }
         </style>
 
-        <div class="container-fluid" style="margin: 0px; padding: 0px">
+        <div class="container-fluid" style="margin: 1px; padding: 14px">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 style="padding-left: 20px">Welcome <br />Raymond Ativie</h2>
+                    <h2>Welcome <br />Raymond Ativie</h2>
                     <br />
                     <div class="list-group">
-                        <a href="newsfeed.html" class="list-group-item">
+                        <a href="#" class="list-group-item">
                             <div class="row">
                                 <div class="col-sm-2 col-xs-3 logo">
                                     <i class="fa fa-3x fa-user "></i>
@@ -138,7 +141,7 @@
                                 </div>
                             </div>                        
                         </a>
-                        <a href="loginStaff.html" class="list-group-item">
+                        <a href="quotes.html" class="list-group-item">
                             <div class="row">
                                 <div class="col-sm-2 col-xs-3 logo">
                                     <i class="fa fa-3x fa-clock-o "></i>
@@ -160,7 +163,7 @@
                                 </div>
                             </div>                        
                         </a>
-                        <a href="about.html" class="list-group-item">
+                        <a href="orders.html" class="list-group-item">
                             <div class="row">
                                 <div class="col-sm-2 col-xs-3" style="text-align: center">
                                     <i class="fa fa-3x fa-truck "></i>
@@ -182,10 +185,10 @@
                                 </div>
                             </div>                        
                         </a>
-                        <a href="about.html" class="list-group-item">
+                        <a href="invoice.html" class="list-group-item">
                             <div class="row">
                                 <div class="col-sm-2 col-xs-3" style="text-align: center">
-                                    <i class="fa fa-3x fa-file "></i>
+                                    <i class="fa fa-3x fa-file-text "></i>
                                 </div>
                                 <div class="col-sm-9 col-xs-7">
                                     <div class="row">
@@ -226,7 +229,7 @@
                                 </div>
                             </div>                        
                         </a>
-                        
+
                     </div>
 
                 </div>

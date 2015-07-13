@@ -10,9 +10,12 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="../../js/jquery.min.js"></script>
         <script src="../../js/bootstrap.min.js"></script>
+        <script src="../js/fastclick.js"></script>
+        <script src="../cordova.js"></script>
 
         <script>
-            $(document).ready(function () {
+            $(document).ready(function() {
+                FastClick.attach(document.body);
                 $("#side").load("nav.html");
             });
         </script>
@@ -26,9 +29,9 @@
 
         <!-- Tab panes -->
         <div class="tab-content">
-            
+
             <div role="tabpanel" class="tab-pane active" id="home">
-                
+
                 <div class="row">
                     <div class="col-xs-4" style="text-align: right">
                         <h4><b>Name</b></h4>
@@ -64,10 +67,10 @@
                         <h4>Raymond Ativie</h4>
                     </div>            
                 </div>
-                
+
             </div>
             <!-- ----------------------------------------------------------- -->
-            
+
             <div role="tabpanel" class="tab-pane" id="profile">
                 <div class="row">
                     <div class="col-xs-4">

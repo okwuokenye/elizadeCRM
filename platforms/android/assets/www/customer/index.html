@@ -10,9 +10,14 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="../js/jquery.min.js"></script>
         <script src="../js/bootstrap.min.js"></script>
-
+         <script src="js/jquery.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/fastclick.js"></script>
+        <script src="cordova.js"></script>
+        <script src="../js/functions.js"></script>
         <script>
-            $(document).ready(function () {
+            $(document).ready(function() {
+                FastClick.attach(document.body);
                 //$("#side").load("nav.html");
             });
         </script>
@@ -27,7 +32,7 @@
                 <div class="container">
                     <div class="navbar-header pull-left">                    
                         <!--<a class="navbar-brand" href="index.html"><i class="fa fa-angle-left"></i></a>-->
-                        <div class="navbar-brand" >Elizade Customer</div>
+                        <div class="navbar-brand" >Elizade MobileCRM</div>
                     </div>   
                     <div class="pull-right">
                         <a class="navbar-brand pull-right" href="index.html"><i class="fa fa-refresh"></i></a>
@@ -43,10 +48,10 @@
             }
         </style>
 
-        <div class="container-fluid" style="margin: 0px;padding: 0px">
+        <div class="container-fluid" style="margin: 1px;padding: 14px">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 style="padding-left: 20px">Welcome <br />Raymond Ativie</h2>
+                    <h2>Welcome <br />Raymond Ativie</h2>
                     <br />
                     <div class="list-group">
                         <a href="newsfeed.html" class="list-group-item">

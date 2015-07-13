@@ -1,0 +1,247 @@
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="../../css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="../../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../../fontawesome/css/font-awesome.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="../../js/jquery.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                //$("#side").load("nav.html");
+            });
+        </script>
+        <style>
+            .form-control{
+                border: 0px;
+                box-shadow: inset 0px 0px 0px rgba(0,0,0,0.0) !important;
+                padding: auto 0px;
+                font-size: 19px;
+                font-family: "Source Sans Pro",Calibri,Candara,Arial,sans-serif;
+                font-weight: 300;
+                line-height: 1.1;
+                color: inherit;
+                padding-left: 0px
+            }
+            .form-control:focus{
+                //box-shadow: inset 1px 1px 1px rgba(0,0,0,0.075) !important;
+            }
+            .mandate{
+                color: red;
+            }
+
+        </style>
+    </head>
+
+
+    <body>
+
+        <!-- Fixed navbar -->
+        <div id="side" style="margin-bottom: 51px">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header pull-left">                    
+                        <a class="navbar-brand" href="../invoice.html"><i class="fa fa-angle-left"></i></a>
+                        <div class="navbar-brand">New Invoice</div>
+                    </div>   
+                    <div class="pull-right">
+                        <!--<div class="navbar-brand pull-right" data-toggle="modal" data-target="#moreModal"><i class="fa fa-ellipsis-v"></i></div>-->
+                        <div class="navbar-brand pull-right"><i class="fa fa-save"></i></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Tab panes -->
+        <div class="tab-content" style="margin-bottom: 70px">
+
+            <div role="tabpanel" class="tab-pane active" id="home" style="padding-top: 10px">
+
+                <div class="row">
+                    <div class="col-xs-4 mandate" style="text-align: right">
+                        <h4><b>Customer</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4 mandate" style="text-align: right">
+                        <h4><b>Name</b></h4>
+                    </div>            
+                    <div class="col-xs-8">                          
+                        <input type="text" class="form-control" value="">
+                    </div>            
+                </div>
+
+                <div class="row">
+                    <hr />         
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Currency</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <select class="form-control">
+                            <option>Naira</option>
+                            <option>Dollar</option>
+                            <option>Euro</option>
+                            <option>Pounds</option>
+                        </select>
+                    </div>            
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-4 mandate" style="text-align: right">
+                        <h4><b>Price List</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <select class="form-control">
+                            <option></option>
+                            <option>Wholesale</option>
+                            <option>Retail</option>
+                        </select>
+                    </div>            
+                </div>
+                 <div class="row">
+                    <hr />         
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Total Amount</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />
+                    </div>            
+                </div>            
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Discount</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" placeholder="None" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Discount %</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" placeholder="None" class="form-control" />
+                    </div>         
+                </div>
+                <div class="row">
+                    <hr />
+                </div>                
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Freight</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" placeholder="None" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <hr />
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Street 1</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Street 2</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>City</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>State</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />
+                    </div>            
+                </div>
+                <div class="row">
+                    <div class="col-xs-4" style="text-align: right">
+                        <h4><b>Country</b></h4>
+                    </div>            
+                    <div class="col-xs-8">
+                        <input type="text" name="topic" value="" class="form-control" />
+                    </div>            
+                </div>
+
+            </div>
+            <!-- ----------------------------------------------------------- -->
+            <!-- ----------------------------------------------------------- -->
+            
+            <div role="tabpanel" class="tab-pane" id="products">
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="list-group">
+                            <a href="note.html" class="list-group-item">
+                                <div class="row">
+                                    <div class="col-xs-9"><h5>Add Product</h5></div>
+                                    <div class="col-xs-3" style="text-align: right"><h5><i class="fa fa-cube"></i><i class="fa fa-plus"></i><h5></div>
+                                </div>
+                            </a>
+                            
+                        </div>
+                        
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-default navbar-fixed-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <!--Nav tabs--> 
+                            <div class="nav nav-tabs" role="tablist">
+                                <a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+                                    <div role="presentation" class="btn btn-default col-xs-6">
+                                        <i class="fa fa-info"></i><br />Information
+                                    </div>
+                                </a>
+
+                                <a href="#products" aria-controls="products" role="tab" data-toggle="tab">
+                                    <div role="presentation" class="btn btn-default col-xs-6">
+                                        <i class="fa fa-cubes"></i><br />Products
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </body>
+</html>
